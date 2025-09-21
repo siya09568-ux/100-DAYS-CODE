@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+
+     printf("Hello world");
+     printf("/n Welcome to C programming");
+     return 0;
+
+}
