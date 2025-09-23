@@ -1,19 +1,16 @@
-#include<stdio.h>
-/* Write a program to calculate the area and perimeter of a rectangle given its length and breadth.*/
+#include <stdio.h>
+/*Q6:Write a program to swap two numbers using a third variable.*/
 
 int main() {
+	int a,b;
+	printf("enter a,b :");
+	scanf("%d" "%d", &a,&b);
 	
-	int length,breadth;
-	printf("enter length");
-	scanf("%d", &length);
+	int c = a;
+	a = b;  
+	b = c;
 	
-	printf("enter breadth");
-	scanf("%d", &breadth);
+	printf("%d" "%d", a , b);
 	
-	int area = length * breadth;
-	printf("area of rectangle is : %d \n", area);
-	
-	int perimeter = 2*length + 2*breadth;
-	printf("perimeter of rectangle is : %d \n", perimeter);
-		return 0;
-	}
+    return 0;
+}
