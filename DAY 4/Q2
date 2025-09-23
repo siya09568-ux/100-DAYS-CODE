@@ -1,16 +1,13 @@
-#include <stdio.h>
-/*Q6:Write a program to swap two numbers using a third variable.*/
+#include<stdio.h>
+/*Q8: Write a program to find and display the sum of the first n natural numbers.*/
 
 int main() {
-	int a,b;
-	printf("enter a,b :");
-	scanf("%d" "%d", &a,&b);
 	
-	int c = a;
-	a = b;  
-	b = c;
+	int n;
+	printf("enter the first n natural number :");
+	scanf("%d", &n);
 	
-	printf("%d" "%d", a , b);
+	printf("sum of the first n natural number : %d", n*(n+1)/2);
 	
-    return 0;
-}
+	return 0;
+} 
